@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  color: aliceblue;
+  color: whitesmoke;
   font-family: sans-serif;
   margin: 0;
 }
@@ -19,16 +19,16 @@ body {
   justify-content: space-around;
 }
 
-button {
+ .Look {
   display: inline-block;
   background-color: black;
   border-radius: 10px;
-  border: 1px double #ccc;
-  color: #eeee;
+  border: 5px solid whitesmoke;
+  color: yellow;
   text-align: center;
   font-size: 20px;
-  padding: 20px;
-  width: 150px;
+  padding: 7px;
+  width: 160px;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -36,6 +36,64 @@ button {
   cursor: pointer;
   margin: 5px;
 }
-button:hover {
-  background-color: green;
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  border: 5px solid whitesmoke;
+  padding: 20px;
+  margin: 20px;
+  height: 10px
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+a {
+  padding: 20px;
+  margin: 1px;
+
+  color: whitesmoke;
+}
+
+section {
+  border: 5px solid whitesmoke;
+  padding: 20px;
+  margin: 20px;
+  height: 10px
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+h2, h3 {
+  text-decoration-line: underline
+  
+}
+
+footer{
+  border: 5px solid whitesmoke;
+  padding: 20px;
+  margin: 20px;
+  height: 10px
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
